@@ -1,0 +1,89 @@
+body{
+    margin:0;
+    padding:0;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+}
+.header{
+    border:1px solid black;
+    background-color:#212121;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.header h2{
+    color:white;
+    font-family: arial;
+    padding-left:5%;
+}
+
+
+
+.header ul{
+    padding-right:5%;
+    margin-top: 1%;
+    list-style: none;
+    width:20%;
+    padding-top:0.7%;
+}
+
+.header ul li{
+    display:inline;
+    color:rgb(204, 204, 204);
+    margin-right:5%;
+    font-size:19px;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header ul li:hover{
+    color:white;
+    transition: .5s;
+}
+
+.selected{
+    color:white !important;
+    border-bottom:2px solid white;
+}
+
+.privacy{
+    display: flex;
+    flex-direction: column;
+    border:1px solid black;
+    padding:5% 10%;
+}
+
+.privacy .privacyheader{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.privacyheader h2{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.privacybody{
+    padding:2% 7%;
+}
+
+.note{
+    font-family:arial;
+    font-size:20px;
+    color:red;
+}
+
+.privacycontents p{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bodyContainer{
+    padding:5% 20%;
+    border:1px solid black;
+}
+
+.btns{
+    margin-left:auto;
+}
